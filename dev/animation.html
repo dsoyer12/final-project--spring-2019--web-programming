@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+  <link rel="icon" href="http://media.tumblr.com/c7769ff1c9073b912f9e4d6c5a93086d/tumblr_inline_mqbyzrgAxJ1qz4rgp.gif" >
+
+  <link rel="stylesheet" href="css/animation.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+  <div class="title">
+    <a href="index.html"><img src="imgs/cl.png"></a>
+    <br>
+    <span class="port"><a href="index.html">CATHERINE &#8212; PORTFOLIO</a> &#8212; ANIMATION</span>
+
+    <div class="links">
+        <a href="art.html">ART</a> 
+        <a href="design.html">DIGITAL DESIGN</a>
+        <a href="#" class="contact">CONTACT</a>
+      </div>
+      <span class="email">Email: catherinelu97@gmail.com</span>
+  </div>
+
+  <script>
+      $('.contact').click(function(){
+        $('.email').fadeToggle('slow');
+      });
+  </script>
+  <hr>
+
+  <div class="posts">
+    <img src="imgs/animation/vEating.gif" style="width:450px;">
+    <img src="https://78.media.tumblr.com/3b017afc66693ee4692cca0aaa4f9b77/tumblr_nwebdtWKct1rwbv6no5_1280.gif">
+    <img src="https://78.media.tumblr.com/81538de09b4b92b562fe8614286132ca/tumblr_nwebdtWKct1rwbv6no3_1280.gif">
+    <img src="https://78.media.tumblr.com/f0880832174ca7630075dac8820b050e/tumblr_nwebdtWKct1rwbv6no2_1280.gif">
+<!--
+      <div id="video-container">
+        <video id="video" width="100%">
+          <source src="videos/all.mp4" type=video/mp4>
+        </video>
+           <center>
+              <div id="video-controls">
+                  <button type="button" id="play-pause" class="play">&#9655;</button>
+                  <button type="button" id="rewind" class="rw">&#10226;</button>
+                  <button type="button" id="ff" class="fast_forward">&#10227;</button>
+
+                  <input type="range" class="bar" id="seek-bar" value="0">
+                  
+                  <input type="range" class="vbar" id="volume-bar" min="0" max="1" step="0.1" value="1" >
+                  <button type="button" id="full-screen" >Full Screen</button>
+              </div>
+            </center>
+      </div>
+      
+     -->
+     <div id="video-container">
+         <video width="100%" controls>
+            <source src="videos/all.mp4" type="video/mp4">
+      
+         </video>
+
+         <video width="100%" controls>
+            <source src="videos/snowangelYEHET.mp4" type="video/mp4">
+      
+         </video> 
+    </div>
+  </div>
+
+
+
+  
+
+
+</body>
+</html>
