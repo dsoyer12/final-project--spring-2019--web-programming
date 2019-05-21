@@ -78,7 +78,11 @@ let compressImages = () => {
 const sass = require(`gulp-sass`);
 
 let compileCSSForDev = () => {
-    return src(`dev/css/main.scss`)
+    return src([
+            `dev/css/main.scss`,
+            `dev/css/design.scss`,
+            `dev/css/animation.scss`,
+            `dev/css/art.scss`])
         .pipe(sass({
             outputStyle: `expanded`,
             precision: 10
