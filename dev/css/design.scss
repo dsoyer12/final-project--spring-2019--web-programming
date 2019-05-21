@@ -46,6 +46,9 @@ body{
       letter-spacing: 1.5px;
       color:#94abec;
     } 
+    .port a{
+      font-style: normal;
+    }
     hr{/*
       height: 6px;
 
@@ -129,7 +132,7 @@ body{
 
     }
     
-    .email{
+    .email, .webdesign-info{
       display:none;
       font-size: .8em;
       font-style: italic;
@@ -153,41 +156,24 @@ body{
       font-family: 'Francois One', sans-serif;
       font-size: 1em;
       letter-spacing: 1px;
-    }
-    #container{
-    width:604px;
-    height:453px;
-    position:relative;
+    }  #top, #bottom{
+    background: rgba(205,224,255,.8);
+    position: fixed;
   }
-
-  #container ul{
-    width:604px;
-    height:453px;
-    list-style:none outside none;
-    position:relative;
-    overflow:hidden;
+  #left, #right {
+    background: rgba(255,205,218,.8);
+  position: fixed;
   }
-  #container li:first-child{
-    display:list-item;
-    position:absolute;
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
   }
-
-  #container li{
-    position:absolute;
-    display:none;
+  #left { left: 0; }
+  #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
   }
-  #container .prevButton{
-    height:72px;
-    width:68px;
-    position:absolute;
-    background:url('buttons.png') no-repeat;
-    top:50%;
-    margin-top:-36px;
-    cursor:pointer;
-    z-index:2000;
-    background-position:left top;
-    left:0
-  }
-
-  #container .prevButton:hover{ 
-      background-position:left bottom;left:0;}
+  #top { top: 0; }
+  #bottom { bottom: 0; }

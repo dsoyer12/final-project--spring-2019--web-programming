@@ -46,13 +46,10 @@ body{
       letter-spacing: 1.5px;
       color:#94abec;
     } 
-    hr{/*
-      height: 6px;
-
-      
-  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
-    border: 0;
-    */
+    .port a{
+      font-style: normal;
+    }
+    hr{
     width:550px;
     border-width: 11px 0px;
         
@@ -128,7 +125,7 @@ body{
     video, iframe{
       margin-bottom: 1em;
     }
-    .email{
+    .email, .webdesign-info{
       display:none;
       font-size: .8em;
       font-style: italic;
@@ -148,3 +145,25 @@ body{
       font-size: 1em;
       letter-spacing: 1px;
     }
+  #top, #bottom{
+    background: rgba(255,205,218,.8);
+    position: fixed;
+  }
+  #left, #right {
+    
+    background: rgba(205,224,255,.8);
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+  }
+  #left { left: 0; }
+  #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+  }
+  #top { top: 0; }
+  #bottom { bottom: 0; }

@@ -105,7 +105,7 @@ hr {
   border: 1px solid #E5EBF6;
 }
 
-.email {
+.email, .webdesign-info {
   display: none;
   font-size: .8em;
   font-style: italic;
@@ -132,4 +132,54 @@ hr {
   font-family: 'Francois One', sans-serif;
   font-size: 1em;
   letter-spacing: 1px;
+}
+
+/*
+    .webdesign-info{
+      position:absolute;
+      top:40%;
+      left:40%;
+      width:250px;
+      height:100px;
+      padding:1em;
+      text-align: center;
+      background-color: rgba(255,255,255,.8);
+    }
+    */
+#top, #bottom {
+  background: rgba(255, 205, 218, 0.8);
+  position: fixed;
+}
+
+#left, #right {
+  background: rgba(205, 224, 255, 0.8);
+  position: fixed;
+}
+
+#left, #right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#top, #bottom {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
 }

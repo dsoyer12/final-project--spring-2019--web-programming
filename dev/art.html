@@ -6,8 +6,11 @@
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/art.css">
-
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.0.min.js"
+  integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+  crossorigin="anonymous"></script>
+   <script src="scripts/fadetoggle.js"></script>
 
 </head>
 
@@ -21,8 +24,15 @@
     <div class="links">
         <a href="animation.html">ANIMATION</a> 
         <a href="design.html">DIGITAL DESIGN</a>
+        <a href="#" class="webdesign">WEB DESIGN</a>
         <a href="#" class="contact">CONTACT</a>
-      </div>
+    </div>
+      <div class="webdesign-info">
+        <a href="http://swiss.hunter.cuny.edu/students/dev04/final/main.php" target="_blank"><span class="info">- Web Production II Final Project</span></a><br>
+        <a href="arvo" target="_blank"><span class="info">- Arvo Part</span></a><br>
+        <a href="sketch" target="_blank"><span class="info">- P5 Project</span></a><br>
+        <a href="haunter" target="_blank"><span class="info">- Haunter Webpage</span></a>
+    </div>
       <div class="email">
         Email: catherinelu97@gmail.com<br>
         <a href="http://instagram.com/jjanqqu" target="_blank">Instagram</a>  &#183; 
@@ -30,12 +40,6 @@
 
       </div>
   </div>
-
-  <script>
-      $('.contact').click(function(){
-        $('.email').fadeToggle('slow');
-      });
-  </script>
 
   <hr>
 
@@ -50,7 +54,11 @@
       <img src="imgs/art/vdyson.png" alt="art">
       <img src="imgs/art/distortionworld.png" alt="art">
     </div>
-
+  
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
 
 </body>
 </html>
