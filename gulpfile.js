@@ -90,7 +90,10 @@ let compileCSSForDev = () => {
         .pipe(dest(`dev/css`));
 };
 let compileCSSForProd = () => {
-    return src(`dev/css/main.scss`)
+    return src([`dev/css/main.scss`,
+                `dev/css/design.scss`,
+                `dev/css/animation.scss`,
+                `dev/css/art.scss`])
         .pipe(sass({
             outputStyle: `compressed`,
             precision: 10
