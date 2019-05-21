@@ -160,7 +160,7 @@ let serve = () => {
     reload
   );
 
-  watch(`dev/styles/**/*.scss`, series(compileCSSForDev)).on(`change`, reload);
+  watch(`dev/styles/**/*.css`, series(compileCSSForDev)).on(`change`, reload);
 
   watch(`dev/html/**/*.html`, series(validateHTML)).on(`change`, reload);
 
