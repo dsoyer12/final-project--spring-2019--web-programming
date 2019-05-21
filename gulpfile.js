@@ -107,20 +107,10 @@ let validateHTML = () => {
     return src(`dev/*.html`)
         .pipe(htmlValidator());
 };
-/*
-const jsLinter = require(`gulp-eslint`);
-
-let lintJS = () => {
-    return src(`dev/scripts/*.js`)
-        .pipe(jsLinter())
-        .pipe(jsLinter.formatEach(`compact`, process.stderr));
-};
-*/
 
 exports.serve = serve;
 exports.validateHTML = validateHTML;
 exports.transpileJSForDev = transpileJSForDev;
-//exports.lintJS = lintJS;
 exports.compressJS = compressJS;
 exports.compressImages = compressImages;
 exports.compileCSSForDev = compileCSSForDev;
