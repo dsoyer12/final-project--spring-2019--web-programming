@@ -1,0 +1,199 @@
+body {
+  cursor: url(http://media.tumblr.com/tumblr_lqs4idHqTZ1qfoi4t.png), auto;
+  margin: 5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #B6807E;
+}
+
+a {
+  text-decoration: none;
+  color: #d07589;
+}
+
+a:hover {
+  cursor: url(http://media.tumblr.com/tumblr_m2umkqvNUT1qfamg6.gif), auto;
+  color: #c7cdf8;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.title {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 540px;
+}
+
+.title img {
+  border-radius: 100%;
+  margin: 1em;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.title img:hover {
+  border-radius: 0%;
+}
+
+.port {
+  font-style: italic;
+  letter-spacing: 1.5px;
+  color: #94abec;
+}
+
+.port a {
+  font-style: normal;
+}
+
+hr {
+  /*
+      height: 6px;
+
+      
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+    */
+  width: 550px;
+  border-width: 11px 0px;
+  border-image: url(http://static.tumblr.com/mqkrxog/pVDnobc95/pink.png) 11 0 repeat;
+  padding: 10px;
+  border-top: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.posts {
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  width: 80%;
+  line-height: 1.5em;
+  text-align: center;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.posts img {
+  width: 300px;
+  padding: 1em;
+}
+
+.posts2 {
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  width: 80%;
+  line-height: 1.5em;
+  text-align: center;
+  animation-name: fadeIn;
+  opacity: 0;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.links {
+  margin: .7em;
+}
+
+.links a {
+  border: 1px solid #e0aba9;
+  padding: 5px;
+  margin-right: 1em;
+  font-style: italic;
+  font-size: .8em;
+  letter-spacing: 1px;
+  color: #e0aba9;
+}
+
+.links a:hover {
+  border: 1px solid #E5EBF6;
+}
+
+.email, .webdesign-info {
+  display: none;
+  font-size: .8em;
+  font-style: italic;
+}
+
+.email a {
+  color: #A9C0FF;
+}
+
+.email a:hover {
+  color: #ffd3de;
+}
+
+.posts2 img {
+  width: 40%;
+  padding: 1em;
+}
+
+.category {
+  background-color: #A9C1E9;
+  width: 95%;
+  color: white;
+  padding: 6px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+#top, #bottom {
+  background: rgba(205, 224, 255, 0.8);
+  position: fixed;
+}
+
+#left, #right {
+  background: rgba(255, 205, 218, 0.8);
+  position: fixed;
+}
+
+#left, #right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#top, #bottom {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+}

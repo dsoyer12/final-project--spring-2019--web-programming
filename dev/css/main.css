@@ -1,0 +1,156 @@
+body {
+  cursor: url(http://media.tumblr.com/tumblr_lqs4idHqTZ1qfoi4t.png), auto;
+  margin: 5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #B6807E;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  cursor: url(http://media.tumblr.com/tumblr_m2umkqvNUT1qfamg6.gif), auto;
+  font-style: italic;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.title {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 540px;
+}
+
+.title img {
+  border-radius: 100%;
+  margin: 1em;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.title img:hover {
+  border-radius: 0%;
+}
+
+.port {
+  font-style: italic;
+  letter-spacing: 1.5px;
+}
+
+.port a {
+  font-style: normal;
+}
+
+hr {
+  width: 550px;
+  border-width: 11px 0px;
+  border-image: url(http://static.tumblr.com/mqkrxog/pVDnobc95/pink.png) 11 0 repeat;
+  padding: 10px;
+  border-top: 0;
+}
+
+.container {
+  position: relative;
+  margin: .5em;
+  display: inline-block;
+  width: 250px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.box {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  width: 750px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.info {
+  font-size: 12px;
+  line-height: normal;
+}
+
+#top, #bottom {
+  background: rgba(205, 224, 255, 0.8);
+  position: fixed;
+}
+
+#left, #right {
+  background: rgba(255, 205, 218, 0.8);
+  position: fixed;
+}
+
+#left, #right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#top, #bottom {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+}
